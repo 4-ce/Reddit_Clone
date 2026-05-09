@@ -1,0 +1,4237 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" style="background-color:powderblue;" dir="ltr">
+  <head>
+    <style>
+      /* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+      .flex {
+    background-color: darkcyan;
+    color: darkmagenta;
+    border: 2px solid darkolivegreen;
+    margin: 20px;
+    padding: 20px;
+    }
+
+      .-ml-2xs {
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    }
+
+      .button-medium {
+    background-color: aliceblue;
+    color: antiquewhite;
+    border: 2px solid aqua;
+    margin: 20px;
+    padding: 20px;
+    }
+
+      .px-[calc_var_--rem12_-var_--button-border-width_0px__] {
+    background-color: aquamarine;
+    color: azure;
+    border: 2px solid beige;
+    margin: 20px;
+    padding: 20px;
+    }
+
+      .button-plain {
+    background-color: blueviolet;
+    color: brown;
+    border: 2px solid burlywood;
+    margin: 20px;
+    padding: 20px;
+    }
+
+      .icon {
+    background-color: cadetblue;
+    color: chartreuse;
+    border: 2px solid chocolate;
+    margin: 20px;
+    padding: 20px;
+    }
+
+    .items-center {
+    background-color: coral;
+    color: cornflowerblue;
+    border: 2px solid cornsilk;
+    margin: 20px;
+    padding: 20px;
+    }
+
+    .justify-center {
+    background-color: crimson;
+    color: cyan;
+    border: 2px solid darkblue;
+    margin: 20px;
+    padding: 20px;
+    }
+
+    .button {
+    background-color: darkcyan;
+    color: darkgoldenrod;
+    border: 2px solid darkgray;
+    margin: 20px;
+    padding: 20px;
+    }
+
+    .inline-flex {
+    background-color: blueviolet;
+    color: brown;
+    border: 2px solid burlywood;
+    margin: 20px;
+    padding: 20px;
+    }
+
+    #navbar-menu-button {
+    background-color: bisque;
+    color: blanchedalmond;
+    padding: 40px;
+    text-align: center;
+    border: 2px solid blue;
+    }
+    </style>
+    <title>Reddit - The heart of the internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+   
+  <link>
+  
+  <script>
+    
+  </script>
+  
+  <area>
+
+  <body>
+    <script>
+      /* Set the width of the side navigation to 250px */
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      /* Set the width of the side navigation to 0 */
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+    <button class="-ml-2xs button-medium px-[calc_var_--rem12_-var_--button-border-width_0px__] button-plain button icon items-center justify-center button inline-flex" id="#navbar-menu-button" type="button">
+      <span class="flex items-center justify-center">
+        <span class="flex">
+          <svg fill="currentColor" height="20">
+            <polygon points="200,1 200,50 250,25" fill="aliceblue" />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#"><a href="Reddit Clone_About Reddit.html">About Reddit</a></a>
+  <a href="#"><a href="Reddit Clone_Accessibility.html">Accessibility</a></a>
+  <a href="#"><a href="Reddit Clone_Achievements.html">Achievements</a></a>
+  <a href="#"><a href="Reddit Clone_Advertise on Reddit.html">Advertise on Reddit</a></a>
+  <a href="#"><a href="Reddit Clone_Best of Reddit.html">Best of Reddit</a></a>
+  <a href="#"><a href="Reddit Clone_Blog.html">Blog</a></a>
+  <a href="#"><a href="Reddit Clone_Careers.html">Careers</a></a>
+  <a href="#"><a href="Reddit Clone_Community.html">Community</a></a>
+  <a href="#"><a href="Reddit Clone_Create Custom Feed.html">Create Custom Feed</a></a>
+  <a href="#"><a href="Reddit Clone_Developer Platform.html">Developer Platform</a></a>
+  <a href="#"><a href="Reddit Clone_Display Mode.html">Display Mode</a></a>
+  <a href="#"><a href="Reddit Clone_Drafts.html">Drafts</a></a>
+  <a href="#"><a href="Reddit Clone_Earn.html">Earn</a></a>
+  <a href="#"><a href="Reddit Clone_Edit Avatar.html">Edit Avatar</a></a>
+  <a href="#"><a href="Reddit Clone_Explore.html">Explore</a></a>
+  <a href="#"><a href="Reddit Clone_Help.html">Help</a></a>
+  <a href="#"><a href="Reddit Clone_Landing Page.html">Landing Page</a></a>
+  <a href="#"><a href="Reddit Clone_Manage Communities.html">Manage Communities</a></a>
+  <a href="#"><a href="Reddit Clone_News.html">News</a></a>
+  <a href="#"><a href="Reddit Clone_Popular.html">Popular</a></a>
+  <a href="#"><a href="Reddit Clone_Premium.html">Premium</a></a>
+  <a href="#"><a href="Reddit Clone_Press.html">Press</a></a>
+  <a href="#"><a href="Reddit Clone_Privacy Policy.html">Privacy Policy</a></a>
+  <a href="#"><a href="Reddit Clone_Reddit Pro (BETA).html">Reddit Pro (BETA)</a></a>
+  <a href="#"><a href="Reddit Clone_Reddit Rules.html">Reddit Rules</a></a>
+  <a href="#"><a href="Reddit Clone_Settings.html">Settings</a></a>
+  <a href="#"><a href="Reddit Clone_Try Reddit Pro.html">Try Reddit Pro</a></a>
+  <a href="#"><a href="Reddit Clone_User Agreement.html">User Agreement</a></a>
+  <a href="#"><a href="Reddit Clone_View Profile.html">View Profile</a></a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()">open</span>
+    <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <h1>My First JavaScript</h1>
+
+<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h1>Epcot Center</h1>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+  
+  <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <div>
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+  </div>
+  <img src="/images/picture.jpg">
+  <img src="../picture.jpg">
+  <form></form>
+  <article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+  <h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+  <aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+  <button type="button">Click Me!</button>
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+ <area alt="" coords="" shape="circle">
+  <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+ <aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+  <audio src=""></audio>
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+  <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<a href="url">link text</a>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+ <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+  <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+  <script>
+  
+</script>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+  <label></label>
+  <map></map>
+  <object></object>
+  <source>
+  <textarea></textarea>
+  <abbr></abbr>
+  <address></address>
+  <article></article>
+  <aside></aside>
+  <b></b>
+  <base>
+  <bdi></bdi>
+  <button>Click Me!</button>
+  <img src="" alt="" width="500" height="600">
+</body>
+</html>

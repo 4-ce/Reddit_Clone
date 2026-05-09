@@ -1,0 +1,23 @@
+In JavaScript, functions are first-class objects, meaning they can have properties and methods just like other objects.
+
+Several built-in methods are available on function objects that provide powerful ways to control their execution context and arguments.
+
+Function Object Methods & Properties
+Revised December 2025
+Name	Description
+
+Copy
+apply()
+
+Description 1
+Calls a function with a specified this value and an array of arguments
+
+Copy
+bind()
+
+Description 2
+Returns a function with a specified this value
+call()	Calls a function with a specified this value and individual arguments
+length	Returns the number of (expected) parameters of a function
+name	Returns the name of the function
+toString()	Returns a string representation of the function's source.
